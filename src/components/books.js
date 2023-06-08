@@ -1,11 +1,11 @@
-import Form from './form';
-import Book from './book';
+import BooksList from './booksList';
+import AddNewBook from './addNewBook';
 
-const Books = () => (
-  <div>
-    <Book />
-    <Form />
-  </div>
-);
-
-export default Books;
+export default function Books() {
+  return (
+    <>
+      <BooksList />
+      <AddNewBook />
+    </>
+  );
+}

@@ -1,7 +1,7 @@
-const Category = () => (
-  <div>
-    <h1>Categories</h1>
-  </div>
-);
-
-export default Category;
+export default function Categories() {
+  return (
+    <div>
+      <h2>Under Construction</h2>
+    </div>
+  );
+}

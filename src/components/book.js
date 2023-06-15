@@ -7,6 +7,7 @@ const line = {
   border: '1px solid #e3e3e3',
   transform: 'rotate(90deg)',
   marginRight: '-4em',
+  alignitems: 'center',
 };
 
 export default function Book({ title, author, removeBook }) {

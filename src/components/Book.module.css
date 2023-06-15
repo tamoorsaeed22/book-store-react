@@ -13,6 +13,13 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
+  position: relative;
+  width: 30em;
+}
+
+.progress-bar-container {
+  display: flex;
+  align-items: center;
 }
 
 .book_details h2,
